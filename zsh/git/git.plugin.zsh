@@ -76,13 +76,13 @@ alias gcp='git cherry-pick'
 alias gcs='git commit -S'
 alias gcfu='git commit --fixup'
 
-alias gd='git diff'
-alias gdca='git diff --cached'
+alias gd='git difftool'
+alias gdca='git difftool --cached'
 alias gdct='git describe --tags `git rev-list --tags --max-count=1`'
 alias gdt='git diff-tree --no-commit-id --name-only -r'
 gdv() { git diff -w "$@" | view - }
 compdef _git gdv=git-diff
-alias gdw='git diff --word-diff'
+alias gdw='git difftool --word-diff'
 
 alias gf='git fetch'
 alias gfa='git fetch --all --prune'
@@ -160,11 +160,11 @@ alias gloga='git log --oneline --decorate --graph --all'
 alias glp="_git_log_prettily"
 compdef _git glp=git-log
 
-alias gm='git merge'
-alias gmom='git merge origin/master'
+alias gm='git mergetool'
+alias gmom='git mergetool origin/master'
 alias gmt='git mergetool --no-prompt'
 alias gmtvim='git mergetool --no-prompt --tool=vimdiff'
-alias gmum='git merge upstream/master'
+alias gmum='git mergetool upstream/master'
 
 alias gp='git push'
 alias gpd='git push --dry-run'
