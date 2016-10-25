@@ -4,7 +4,6 @@
 	name = ZhangRGK
 	email = stamen0630@gmail.com
 [core]
-	editor = /usr/local/bin/subl -n -w
 	excludesfile = ~/.gitignore
 [diff]
 	tool = bc3
