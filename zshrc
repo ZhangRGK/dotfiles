@@ -1,9 +1,6 @@
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/ken/.oh-my-zsh
 export HOMEBREW_GITHUB_API_TOKEN=3deceec9cb33fb05c576ec16c0bb1865fac1c1a8
-export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
-export PATH=$PATH:$JAVA_HOME/bin:.
-export TOMCAT_HOME=/Users/ken/repo/tomcat
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -87,6 +84,3 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
-
-# Docker
-eval $(docker-machine env default)
