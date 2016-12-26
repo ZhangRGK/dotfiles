@@ -1,0 +1,13 @@
+'atom-text-editor.vim-mode:not(.insert-mode)':
+  'ctrl-l': 'pane:show-next-item'
+  'ctrl-h': 'pane:show-previous-item'
+
+'.platform-darwin':
+  'ctrl-w f': 'tree-view:toggle-focus'
+
+'atom-text-editor[data-grammar~="vue"]:not([mini])':
+  'tab': 'emmet:expand-abbreviation-with-tab'
+
+'atom-workspace atom-text-editor.vim-mode.normal-mode:not([mini])':
+  'space x': 'editor:fold-current-row'
+  'space o': 'editor:unfold-current-row'
