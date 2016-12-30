@@ -81,6 +81,9 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+alias zshconfig="vim ~/.zshrc"
+alias ohmyzsh="vim ~/.oh-my-zsh"
+alias gcaf="git commit -a --fixup HEAD~1"
+alias gris="git rebase --interactive --autosquash"
+
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
