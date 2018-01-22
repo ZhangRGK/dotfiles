@@ -12,3 +12,5 @@
 	tool = bc3
 [mergetool]
 	bc3 = trustExitCode
+[commit]
+	template = ~/.gitmessage
