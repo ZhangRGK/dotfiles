@@ -1,0 +1,40 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+  {
+    "key": "ctrl+l",
+    "command": "workbench.action.nextEditor",
+    "when": "editorTextFocus && vim.mode == 'Normal'"
+  },
+  {
+    "key": "alt+cmd+right",
+    "command": "-workbench.action.nextEditor"
+  },
+  {
+    "key": "ctrl+h",
+    "command": "workbench.action.previousEditor",
+    "when": "editorTextFocus && vim.mode == 'Normal'"
+  },
+  {
+    "key": "alt+cmd+right",
+    "command": "-workbench.action.previousEditor"
+  },
+  {
+    "key": "ctrl+h",
+    "command": "-deleteLeft"
+  },
+  {
+    "key": "ctrl+h",
+    "command": "-extension.vim_ctrl+h"
+  },
+  {
+    "key": "space f",
+    "command": "editor.fold",
+    "when": "editorTextFocus && vim.mode == 'Normal'"
+  },
+  {
+    "key": "space u",
+    "command": "editor.unfold",
+    "when": "editorTextFocus && vim.mode == 'Normal'"
+  }
+]
+

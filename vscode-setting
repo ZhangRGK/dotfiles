@@ -1,0 +1,66 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.fontSize": 14,
+    "editor.fontFamily": "Hack, Inconsolata, Menlo, Monaco, 'Courier New', monospace",
+    "editor.tabSize": 2,
+    "editor.quickSuggestionsDelay": 30,
+    "debug.allowBreakpointsEverywhere": true,
+    "debug.openExplorerOnEnd": true,
+    "debug.inlineValues": true,
+    "files.insertFinalNewline": true,
+    "window.openFilesInNewWindow": "default",
+    "workbench.quickOpen.closeOnFocusLost": false,
+    "window.restoreFullscreen": true,
+    "window.newWindowDimensions": "fullscreen",
+    "explorer.openEditors.visible": 0,
+    "vim.leader": "<space>",
+    "workbench.colorTheme": "One Dark Pro",
+    "vim.useSystemClipboard": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "extensions.ignoreRecommendations": false,
+    "emmet.triggerExpansionOnTab": true,
+    "javascript.validate.enable": false,
+    "vim.easymotion": true,
+    "vim.otherModesKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<space>",
+                "o"
+            ],
+            "after": [
+                "<esc>"
+            ],
+            "commands": [
+                {
+                    "command": "workbench.action.quickOpen",
+                    "args": []
+                }
+            ]
+        }
+    ],
+    "window.zoomLevel": 0,
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true,
+        "suppressUpdateNotice": true,
+        "suppressWelcomeNotice": true
+    },
+    "[css]": {
+        "editor.tabSize": 2
+    },
+    "[less]": {
+        "editor.tabSize": 2
+    },
+    "clojure.leinPath": "/usr/local/bin/lein",
+    "gitlens.keymap": "none",
+    "material-icon-theme.showUpdateMessage": false,
+    "python.linting.enabled": false,
+    "gitlens.historyExplorer.enabled": true
+}
+
