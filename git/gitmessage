@@ -1,9 +1,16 @@
 ACTION(scope): subject
-# FEAT: 新增功能
-# FIX: 修复bug
-# DOCS: 修改或者新增文档
-# CHANGE: 业务修改或方案修改导致的功能变更
-# IMPROVE: 架构, 性能方面的改进, 不影响业务功能
-# REMOVE: 删除文件
 
-# body
+# actions: 
+# build
+# chore
+# ci
+# docs
+# feat // === ADD
+# fix
+# perf // === IMPROVE
+# refactor
+# revert
+# style
+# test
+# merge
+# translation

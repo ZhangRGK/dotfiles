@@ -3,18 +3,8 @@
 [user]
 	name = ZhangRGK
 	email = stamen0630@gmail.com
-	signingkey = 29FE4B10D7F85BFA
 [core]
 	excludesfile = ~/.gitignore
 	editor = vim
-[diff]
-	tool = bc3
-[merge]
-	tool = bc3
-[mergetool]
-	bc3 = trustExitCode
 [commit]
 	template = ~/.gitmessage
-	gpgsign = true
-[gpg]
-	program = /usr/local/MacGPG2/bin/gpg2
